@@ -1,6 +1,6 @@
 
 import { Motorcycle, Category } from './types';
-
+import ak550Img from './assets/images/ak550.png'; 
 export const KYMCO_MODELS: Motorcycle[] = [
   {
     id: 'ak550-premium',
@@ -8,7 +8,7 @@ export const KYMCO_MODELS: Motorcycle[] = [
     series: '旗舰跑旅',
     price: '89,800',
     category: Category.TOURING,
-    image: require('@/assets/images/ak550.png'),
+    image: ak550Img,
     description: '光阳旗舰超级跑旅，搭载550cc并列双缸发动机，拥有极致的动力输出与弯道操控性能。',
     specs: {
       engineType: '并列双缸 DOHC 8V',

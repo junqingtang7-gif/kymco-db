@@ -69,7 +69,7 @@ const App: React.FC = () => {
               <ol className="text-sm text-blue-700 space-y-2 list-decimal list-inside font-medium">
                 <li>在 GitHub 上创建名为 <code className="bg-blue-200 px-1 rounded">kymco-db</code> 的仓库。</li>
                 <li>上传此项目的所有源码文件。</li>
-                <li>前往 Settings -> Pages，选择分支部署。</li>
+                <li>前往 Settings -&gt; Pages，选择分支部署。</li>
               </ol>
             </div>
 
